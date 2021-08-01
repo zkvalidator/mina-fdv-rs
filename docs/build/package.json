@@ -1,0 +1,12 @@
+{
+  "name": "mina-fdv-rs",
+  "version": "0.1.0",
+  "files": [
+    "mina_fdv_rs_bg.wasm",
+    "mina_fdv_rs.js",
+    "mina_fdv_rs.d.ts"
+  ],
+  "module": "mina_fdv_rs.js",
+  "types": "mina_fdv_rs.d.ts",
+  "sideEffects": false
+}

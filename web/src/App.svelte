@@ -1,7 +1,3 @@
-<svelte:head>
-  <base href="mina-fdv-rs">
-</svelte:head>
-
 <style global lang="postcss">
   @tailwind base;
   @tailwind components;
@@ -128,4 +124,10 @@
   </button>
   <div id="results_table"></div>
 </div>
+
+<svelte:head>
+  <base href="mina-fdv-rs">
+  <title>Mina Foundation Delegation Verifier</title>
+</svelte:head>
+
 

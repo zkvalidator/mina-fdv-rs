@@ -1,3 +1,7 @@
+<svelte:head>
+  <base href="mina-fdv-rs">
+</svelte:head>
+
 <style global lang="postcss">
   @tailwind base;
   @tailwind components;

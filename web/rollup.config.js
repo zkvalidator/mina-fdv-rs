@@ -6,7 +6,6 @@ import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
 import copy from 'rollup-plugin-copy'
 import sveltePreprocess from "svelte-preprocess";
-import { baseUrl } from 'rollup-plugin-base-url';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -87,11 +86,6 @@ export default {
       targets: [
         { src: 'web/pkg/*', dest: 'build/public' }
       ]
-    }),
-
-    baseUrl({
-      url: '/mina-fdv-rs',
-      staticImports: true,
     }),
 	],
 	watch: {
